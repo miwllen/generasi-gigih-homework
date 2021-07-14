@@ -28,6 +28,71 @@
   color: #61dafb;
 }
 
+
+.topNav {
+  font-size: 15px;
+  font: 'Roboto';
+  margin: 15px;
+  color: #9d9d9d;
+  display: inline-block;
+  border: #6ef579;
+}
+
+.topNav:hover {
+  color: #6ef579;
+}
+
+.songsTitle {
+  color: #fcfcfc;
+  font-size: 20px;
+  font-family: cursive;
+  margin: 30px 30px 5px 30px;
+}
+
+img {
+  border-radius: 20px;
+  width: 350px;
+}
+
+.songTitle {
+  font-weight: bold;
+  font-size: 15px;
+  color: #8c8f8c;
+  font: 'Roboto';
+}
+
+.artist {
+  font-size: 30px;
+  color: #8c8f8c;
+  font: 'Roboto';
+}
+
+.songList {
+  display: inline-block;
+}
+
+.selectButton {
+  background-color: #6ef579;
+  border: none;
+  color: #010000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.selectButton:hover {
+  background-color: #2d6074;
+  border: 1px solid #1ed760;
+  color: #9d9d9d;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
