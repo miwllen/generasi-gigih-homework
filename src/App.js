@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import 'regenerator-runtime/runtime';
+import data from './album/album.js';
+import TitleSection from './components/TitleSection/index.jsx'
+import SongItem from './components/SongItem/index.jsx'
+
+console.log(process.env.REACT_APP_CLIENT_ID);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <h1 className="topNav">Pop Hits</h1>
+        <h1 className="topNav">It's 90s</h1>
+        <h1 className="topNav">New Song</h1>
+      </div>
+
+      <TitleSection title="Your favorite song!"/>
+      <SongItem imgUrl={data.album.images[0].url} songTitle={data.album.name} artist={data.album.artists[0].name}/>
+
+      
     </div>
   );
 }

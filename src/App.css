@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+
+.topNav {
+  font-size: 15px;
+  font: 'Roboto';
+  margin: 15px;
+  color: #9d9d9d;
+  display: inline-block;
+  border: #6ef579;
+}
+
+.topNav:hover {
+  color: #6ef579;
+}
+
+img {
+  width: 350px;
+  border-radius: 20px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
